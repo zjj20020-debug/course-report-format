@@ -1,0 +1,25 @@
+{
+  "title": "可重构智能超表面技术原理及其在6G无线通信中的应用",
+  "abstract": "智能超材料作为人工电磁材料的前沿方向，近年来取得了突破性进展。可重构智能超表面（Reconfigurable Intelligent Surface, RIS）作为智能超材料的重要分支，通过集成可调谐器件实现对电磁波的动态调控，为无线通信系统提供了全新的设计范式。本文系统介绍了智能超材料的发展历程与基本原理，深入阐述了RIS技术的系统组成、工作机理与数学模型，详细分析了RIS在6G通信中的覆盖增强、毫米波/太赫兹通信及物联网等典型应用场景，并探讨了当前面临的技术挑战与未来发展趋势。研究表明，RIS凭借低功耗、低成本、可编程调控等优势，有望成为6G网络的关键支撑技术之一，为构建智能无线环境提供全新解决方案。",
+  "keywords": "智能超材料；可重构智能超表面；电磁调控；6G通信",
+  "sections": [
+    {
+      "heading": "1 引言",
+      "subsections": [
+        {
+          "subheading": "1.1 研究背景",
+          "paragraphs": [
+            "正文内容..."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "参考文献",
+      "refs": [
+        {"type": "en", "text": "[1] AUTHOR N. Title[J]. Journal, Year, Vol(Issue): Pages."},
+        {"type": "cn", "cn": "[2] 作者. 中文标题[J]. 期刊名, 年, 卷(期): 页码.", "en": "AUTHOR N. English title[J]. Journal, Year, Vol(Issue): Pages."}
+      ]
+    }
+  ]
+}
