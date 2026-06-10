@@ -1,0 +1,64 @@
+{
+  "title": "论文标题（二号黑体，不超过20字）",
+  "title_en": "English Title (4pt Times New Roman Bold, ≤12 words)",
+  "author": "作者姓名",
+  "author_en": "AUTHOR Name",
+  "affiliation": "哈尔滨工程大学 信息与通信工程学院，黑龙江 哈尔滨 150001",
+  "affiliation_en": "College of Information and Communication Engineering, Harbin Engineering University, Harbin 150001, China",
+  "abstract": "中文摘要（200字左右）。文摘第一句不可与题目重复。包含目的、方法、结果和结论四个要素。",
+  "abstract_en": "English abstract follows the same structure as the Chinese version: objective, method, results, and conclusion.",
+  "keywords": "关键词1；关键词2；关键词3；关键词4；关键词5",
+  "keywords_en": "keyword1; keyword2; keyword3; keyword4; keyword5",
+  "sections": [
+    {
+      "heading": "1 引言",
+      "paragraphs": [
+        "引言正文。五号宋体，首行缩进2字符，单倍行距。开门见山，不绕圈子。",
+        "公式示例：行内用 $...$（如 $x^2 + y^2 = z^2$），独立成行用 $$...$$（如 $$E = mc^2$$）。注意 JSON 中反斜杠必须双写：$\\Gamma_n$、$\\beta_n \\cdot \\exp(j\\varphi_n)$。"
+      ]
+    },
+    {
+      "heading": "2 正文示例",
+      "subsections": [
+        {
+          "subheading": "2.1 小节标题",
+          "paragraphs": [
+            "正文内容。下面是一个表格示例：",
+            {
+              "type": "table",
+              "caption_cn": "表1 表题（小五黑体）",
+              "caption_en": "Table 1 Title (9pt TNR Bold)",
+              "headers": ["列1", "列2", "列3"],
+              "rows": [
+                ["值1", "值2", "值3"],
+                ["值4", "值5", "值6"]
+              ]
+            },
+            "表格之后的正文。下面是一个图片示例：",
+            {
+              "type": "figure",
+              "caption_cn": "图1 图题（小五黑体）",
+              "caption_en": "Fig.1 Title (9pt TNR Bold)",
+              "path": "figures/example.png",
+              "width_cm": 7
+            },
+            "图片之后的正文。"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3 结论",
+      "paragraphs": [
+        "结论不是正文简单重复，应以分析为依据，完整、准确、简洁地指出研究结果和意义。"
+      ]
+    },
+    {
+      "heading": "参考文献",
+      "refs": [
+        {"type": "en", "text": "[1] AUTHOR N. Article Title[J]. Journal Name, Year, Vol(Issue): Pages."},
+        {"type": "cn", "cn": "[2] 作者. 中文标题[J]. 期刊名, 年, 卷(期): 页码.", "en": "AUTHOR N. English Title[J]. Journal Name, Year, Vol(Issue): Pages."}
+      ]
+    }
+  ]
+}

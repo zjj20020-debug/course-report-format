@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.DS_Store
+RIS_6G_Report.docx
